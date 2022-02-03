@@ -1,6 +1,6 @@
 import React from 'react';
-import InputLabel from './InputLabel';
-import ButtonSubmit from './ButtonSubmit';
+import InputLabel from '../../../components/InputLabel';
+import ButtonSubmit from '../../../components/ButtonSubmit';
 
 export default function FormForgotPassword() {
   return (

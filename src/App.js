@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import ForgotPassword from './screens/ForgotPassword'
-import Login from './screens/Login'
-import Register from './screens/Register'
+import ForgotPassword from './screens/ForgotPassword/ForgotPassword'
+import Login from './screens/Login/Login'
+import Register from './screens/Register/Register'
 
 
 function App() {
