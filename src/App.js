@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import FormLogIn from './components/FormLogIn'
-import FormRegister from './components/FormRegister'
-import FormForgotPassword from './components/FormForgotPassword'
+import ForgotPassword from './screens/ForgotPassword'
+import Login from './screens/Login'
+import Register from './screens/Register'
 
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<FormLogIn />} />
-        <Route path="/register" element={<FormRegister />} />
-        <Route path="/forgotpassword" element={<FormForgotPassword />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
       </Routes>
     </div>
   );
