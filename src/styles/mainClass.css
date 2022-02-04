@@ -2,11 +2,11 @@
 @import './fonts/mainFonts.css';
 
 .main-bg-color {
-  background-color: var(--main-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .input-label {
-  color: var(--main-font-color-label);
+  color: var(--secondary-content-color);
   font: 600 20px "Poppins", sans-serif;
 }
 
@@ -16,6 +16,6 @@
 }
 
 .button-primary {
-  background-color: var(--main-cta-color);
+  background-color: var(--primary-cta-color);
   font: 600 22px "Poppins", sans-serif;
 }

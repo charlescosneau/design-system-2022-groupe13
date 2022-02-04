@@ -1,6 +1,6 @@
 :root {
-  --main-bg-color: #072227; 
-  --main-font-color-label: #4FBDBA;
-  --main-cta-color: #9A0680;
-  --main-primary-color: #AEFEFF;
+  --primary-bg-color: #072227;
+  --secondary-content-color: #4FBDBA;
+  --primary-cta-color: #9A0680;
+  --primary-content-color: #AEFEFF;
 }
