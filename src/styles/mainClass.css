@@ -1,0 +1,21 @@
+@import './colors/mainColors.css';
+@import './fonts/mainFonts.css';
+
+.main-bg-color {
+  background-color: var(--main-bg-color);
+}
+
+.input-label {
+  color: var(--main-font-color-label);
+  font: 600 20px "Poppins", sans-serif;
+}
+
+.title-h1 {
+  color: var(--main-primary-color);
+  font: 700 48px "Poppins", sans-serif;
+}
+
+.button-primary {
+  background-color: var(--main-cta-color);
+  font: 600 22px "Poppins", sans-serif;
+}
