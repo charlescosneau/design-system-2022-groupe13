@@ -1,6 +1,16 @@
 @import './colors/mainColors.css';
 @import './fonts/mainFonts.css';
 
+body {
+  background-color: var(--primary-bg-color);
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-bg-color {
   background-color: var(--primary-bg-color);
 }
@@ -18,4 +28,21 @@
 .button-primary {
   background-color: var(--primary-cta-color);
   font: 600 22px "Poppins", sans-serif;
+}
+
+input {
+  font: 600 20px "Poppins", sans-serif;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primary-content-color);
+  color: var(--primary-content-color);
+  min-width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
 }
