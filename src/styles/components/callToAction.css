@@ -1,0 +1,32 @@
+:root {
+  --hover-cta-color: #840A6E;
+  --active-cta-color: rgba(132, 10, 110, 0.41);
+  --focus-cta-color: #A40A89;
+  --disabled-cta-color: #A12B8D;
+}
+
+.cta-primary {
+  width: 200px;
+  height: 50px;
+  background-color: var(--primary-cta-color);
+  color: var(--primary-content-color);
+}
+
+.cta-primary:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta-primary:active {
+  border: 1px solid #840A6E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: var(--active-cta-color);
+}
+
+.cta-primary:focus {
+  color: var(--focus-cta-color);
+}
+
+.cta-primary-disabled {
+  color: var(--disable-cta-color)
+}
