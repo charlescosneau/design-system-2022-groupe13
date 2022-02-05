@@ -8,7 +8,8 @@
 .cta-primary {
   height: 4.5vh;
   background-color: var(--primary-cta-color);
-  border-radius: 10px;
+  border-radius: 15px;
+  border: none;
 }
 
 .cta-primary:hover {

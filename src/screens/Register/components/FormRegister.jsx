@@ -11,7 +11,7 @@ export default function FormRegister() {
         <InputField type="text" id="input-email" placeholder='exemple@mail.fr' labelValue="Email" htmlFor="input-email" labelClassName="input-label" />
         <InputField type="password" id='input-password' placeholder='zt4bVp9R42Tf' labelValue="Mot de passe" htmlFor="input-password" labelClassName="input-label" />
         <InputField type="password" id='input-password-confirm' placeholder='zt4bVp9R42Tf' labelValue="Confirmer votre mot de passe" htmlFor="input-password-confirm" labelClassName="input-label" />
-        <CallToAction link="/home" text="S'enregistrer" ctaClassName="cta-primary" ctaLabelClassName="cta-primary-label" />
+        <CallToAction link="/register" text="S'enregistrer" ctaClassName="cta-primary" ctaLabelClassName="cta-primary-label" />
         <div className='df'>
           <RouterLink to="/" text="Déjà utilisateur ?" routerLinkClassName="router-link" />
         </div>
