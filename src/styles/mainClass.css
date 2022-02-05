@@ -1,5 +1,7 @@
 @import './colors/mainColors.css';
 @import './fonts/mainFonts.css';
+@import './components/callToAction.css';
+@import './components/routerLink.css';
 
 body {
   background-color: var(--primary-bg-color);
@@ -25,11 +27,6 @@ body {
   font: 700 48px "Poppins", sans-serif;
 }
 
-.button-primary {
-  background-color: var(--primary-cta-color);
-  font: 600 22px "Poppins", sans-serif;
-}
-
 input {
   font: 600 20px "Poppins", sans-serif;
   background: transparent;
@@ -45,4 +42,12 @@ input:focus {
 
 ::-moz-focus-inner {
   border: 0;
+}
+
+.df {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1ch;
 }

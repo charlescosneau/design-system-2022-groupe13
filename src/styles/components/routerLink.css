@@ -1,0 +1,4 @@
+.router-link {
+  font: 600 15px "Poppins", sans-serif;
+  color: var(--primary-cta-color);
+}
